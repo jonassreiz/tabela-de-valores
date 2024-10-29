@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img/Frame12.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: black;
+}
+/* Estilo para todos */
+.fist-title p{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin: 35px 0;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: white;
+}
+p{
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.89);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 35px;
+}
+.column-card-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* Este estilo é para o card verde. */
+.card-green{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 280px;
+    padding: 40px 20px 20px 20px;
+    position: relative;
+    border-radius: 6px;
+    background: rgba(2, 77, 53, 0.781);
+    -webkit-backdrop-filter: blur(50px);
+    border: 2px solid #89ffc4;
+}
+.Green-highlight{
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(216, 226, 231);
+    position: absolute;
+    left: 62%;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 800;
+    color: black;
+}
+.title{
+    margin-bottom: 20px;
+}
+.paragraph-price p{
+    margin-bottom: 25px;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    background-color: rgb(216, 226, 231);
+}
+.card-small-1{
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 6px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, .1);
+}
+.card-small-1 h2{
+    margin-bottom: 6px;
+}
+.card-small-1 p{
+    margin-bottom: 20px;
+}
+.card-small-1 h3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+.card-small-1 h3 .fa-arrow-right-long{
+    border: 2px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 45px;
+}
+
+/* Este estilo é para o card transparente. */
+.card-transparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 250px;
+    height: 280px;
+    padding: 40px 20px 20px 20px;
+    position: relative;
+    border-radius: 6px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, .1);
+}
+.Purple-highlight{
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #b245ff;
+    position: absolute;
+    left: 62%;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 800;
+    color: black;
+}
+span {
+    font-weight: bold;
+}
+.btn-transparent {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    color: rgb(255, 255, 255);
+}
